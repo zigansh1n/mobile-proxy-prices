@@ -15,7 +15,7 @@ COUNTRY = {"Россия": "Russia", "США": "USA", "Великобритан�
            "Индия": "India", "Турция": "Turkey", "Узбекистан": "Uzbekistan", "Киргизия": "Kyrgyzstan",
            "Кыргызстан": "Kyrgyzstan", "Армения": "Armenia", "Латвия": "Latvia", "Литва": "Lithuania",
            "Эстония": "Estonia", "Молдова": "Moldova", "Израиль": "Israel", "Канада": "Canada",
-           "Австралия": "Australia", "Вьетнам": "Vietnam", "Индонезия": "Indonesia", "Бразилия": "Brazil",
+           "Австралия": "Australia", "Вьетнам": "Vietnam", "Индонезия": "Indonesia", "Бразилия": "Brazil", "Украина": "Ukraine", "Словения": "Slovenia",
            "все": "all countries", "all": "all countries", "не указана": "not stated",
            "Россия (Санкт-Петербург)": "Russia (St. Petersburg)", "Россия (Москва)": "Russia (Moscow)"}
 KIND = {"приватный": "dedicated", "общий": "shared", "не указан": "n/a"}

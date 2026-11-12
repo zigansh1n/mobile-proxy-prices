@@ -63,9 +63,9 @@ The channel is shared by several customers. Full list: [`data/tops/month_shared.
 | 5 | [LTEBoost.com](https://lteboost.com) | Romania | **$6.03** | 500 RUB / 30 days | Shared 4G | exact |
 | 6 | [Proxy.Promo](https://proxy.promo) | Russia | **$6.03** | 500 RUB / 1 month | Public | exact |
 | 7 | [YaProxy](https://yaproxy.ru) | Russia | **$6.03** | 500 RUB / 1 month | public, Moscow, St. Petersburg | exact |
-| 8 | [LTEBoost.com](https://lteboost.com) | Moldova, Украина | **$6.63** | 550 RUB / 30 days | Shared 4G | exact |
-| 9 | [GetProxy](https://getproxy.io) | Bulgaria, Словения | **$7.23** | 600 RUB / 30 days | Mobile / Shared / Bulgaria / #2 | exact |
-| 10 | [LTEBoost.com](https://lteboost.com) | Kazakhstan, Словения, Thailand | **$7.23** | 600 RUB / 30 days | Shared 4G | exact |
+| 8 | [LTEBoost.com](https://lteboost.com) | Moldova, Ukraine | **$6.63** | 550 RUB / 30 days | Shared 4G | exact |
+| 9 | [GetProxy](https://getproxy.io) | Bulgaria, Slovenia | **$7.23** | 600 RUB / 30 days | Mobile / Shared / Bulgaria / #2 | exact |
+| 10 | [LTEBoost.com](https://lteboost.com) | Kazakhstan, Slovenia, Thailand | **$7.23** | 600 RUB / 30 days | Shared 4G | exact |
 
 ### Cheapest mobile proxies per day
 
