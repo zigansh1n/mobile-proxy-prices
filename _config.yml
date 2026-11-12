@@ -8,3 +8,6 @@ plugins:
 url: "https://zigansh1n.github.io"
 baseurl: "/mobile-proxy-prices"
 show_downloads: false
+exclude:
+  - scripts
+  - README.ru.md
