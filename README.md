@@ -1,6 +1,6 @@
-# Мобильные прокси: сравнение цен 83 продавцов (4G / LTE / 5G), ноябрь 2026
+# Мобильные прокси: сравнение цен 80 продавцов (4G / LTE / 5G), ноябрь 2026
 
-**Сколько стоят мобильные прокси и где купить дешевле.** Сравнение цен **83 продавцов** мобильных прокси — российских и зарубежных: **4 246 тарифов** по странам и операторам, с пересчётом в рубли и топами самых дешёвых. Цены собраны с сайтов продавцов 12–13 ноября 2026 года.
+**Сколько стоят мобильные прокси и где купить дешевле.** Сравнение цен **80 продавцов** мобильных прокси — российских и зарубежных: **4 226 тарифов** по странам и операторам, с пересчётом в рубли и топами самых дешёвых. Цены собраны с сайтов продавцов 12–13 ноября 2026 года.
 
 По каждому тарифу указаны страна, оператор (МТС, Билайн, Мегафон, Теле2, T-Mobile, Vodafone и другие), тип — приватный или общий, срок аренды, цена в исходной валюте и в рублях, лимит трафика, способ смены IP и ссылка на страницу продавца, где эта цена стоит.
 
@@ -16,8 +16,8 @@
 
 | | |
 |---|---|
-| Продавцов | 83 |
-| Тарифных строк | 4 246 |
+| Продавцов | 80 |
+| Тарифных строк | 4 226 |
 | Рекомендаций из YouTube и Twitter | 333 |
 | Комментариев и ответов с оценкой обоснованности | 227 |
 | Дата сбора | 12–13 ноября 2026 |
@@ -39,16 +39,15 @@
 | 3 | [KupiProxy](https://kupiproxy.ru) | Россия | **1 990** | 1990 RUB / 1 месяц | Мобильные приватные | точная |
 | 4 | [GetProxy](https://getproxy.io) | Россия | **2 000** | 2000 RUB / 30 дней | Мобильные / Индивидуальные / Россия /  | точная |
 | 5 | [Proxied](https://proxied.com) | Ukraine | **2 075** | 25 USD / 30 days (month) | Monthly plan (from) | от |
-| 6 | [UA-PROXY.net](https://ua-proxy.net) | Ukraine | **2 406** | 29 USD / 30 дней | Private 30 дней | точная |
-| 7 | [Proxied](https://proxied.com) | India | **2 489** | 30 USD / 30 days (month) | Monthly plan (from) | от |
-| 8 | [MobileProxy.space](https://mobileproxy.space) | Россия | **2 490** | 2490 RUB / 30 дней | Mobile 30 дней | точная |
-| 9 | [YaProxy](https://yaproxy.ru) | Россия | **2 490** | 2490 RUB / 1 месяц | Приватный, Много городов | точная |
-| 10 | [IPArchitect](https://iparchitect.ru) | Россия (Санкт-Петербург) | **2 500** | 2500 RUB / 1 месяц | Приватный | от |
-| 11 | [Proxy.Promo](https://proxy.promo) | Россия | **2 500** | 2500 RUB / 1 месяц | Private | точная |
-| 12 | [ProxyApp](https://proxyapp.ru) | Россия | **2 500** | 2500 RUB / 1 месяц | Приватный | точная |
-| 13 | [ProxyGRAM](https://proxygram.ru) | Россия | **2 500** | 2500 RUB / 1 месяц | Private | точная |
-| 14 | [Carrierproxy](https://carrierproxy.com) | Россия | **2 520** | 2520 RUB / 1 месяц | Мобильные прокси Россия | точная |
-| 15 | [proxyfarm.ru](https://proxyfarm.ru) | Россия | **2 590** | 2590 RUB / 1 месяц | Выделенное устройство | точная |
+| 6 | [Proxied](https://proxied.com) | India | **2 489** | 30 USD / 30 days (month) | Monthly plan (from) | от |
+| 7 | [MobileProxy.space](https://mobileproxy.space) | Россия | **2 490** | 2490 RUB / 30 дней | Mobile 30 дней | точная |
+| 8 | [YaProxy](https://yaproxy.ru) | Россия | **2 490** | 2490 RUB / 1 месяц | Приватный, Много городов | точная |
+| 9 | [IPArchitect](https://iparchitect.ru) | Россия (Санкт-Петербург) | **2 500** | 2500 RUB / 1 месяц | Приватный | от |
+| 10 | [Proxy.Promo](https://proxy.promo) | Россия | **2 500** | 2500 RUB / 1 месяц | Private | точная |
+| 11 | [ProxyApp](https://proxyapp.ru) | Россия | **2 500** | 2500 RUB / 1 месяц | Приватный | точная |
+| 12 | [ProxyGRAM](https://proxygram.ru) | Россия | **2 500** | 2500 RUB / 1 месяц | Private | точная |
+| 13 | [Carrierproxy](https://carrierproxy.com) | Россия | **2 520** | 2520 RUB / 1 месяц | Мобильные прокси Россия | точная |
+| 14 | [proxyfarm.ru](https://proxyfarm.ru) | Россия | **2 590** | 2590 RUB / 1 месяц | Выделенное устройство | точная |
 
 ### Общие (shared) мобильные прокси на месяц
 
@@ -146,7 +145,7 @@ python3 scripts/check.py my_prices.csv 1
 ## Ограничения
 
 - **Цены «от».** У части продавцов на сайте стоит «от», а точная цена по стране видна только в личном кабинете. Такие строки помечены в колонке `price_kind`.
-- **Неполные продавцы.** У 26 из 83 продавцов часть цен закрыта личным кабинетом, защитой от роботов или не опубликована. Причина по каждому — в `completeness_report.csv`.
+- **Неполные продавцы.** У 26 из 80 продавцов часть цен закрыта личным кабинетом, защитой от роботов или не опубликована. Причина по каждому — в `completeness_report.csv`.
 - **Единица цены за гигабайт** (цена пакета или одного гигабайта) определялась правилами в `rub.py`, построчно не перепроверялась.
 - **Рекомендации и комментарии** скриптом не проверяются. Цитаты сверены с оригиналом выборочно; пометку «обоснован» ставила языковая модель. В цитатах из автоматических субтитров встречаются искажения.
 - **Срез на дату.** Цены и наличие меняются; перед покупкой сверяйтесь с сайтом по ссылке в строке.
@@ -154,7 +153,7 @@ python3 scripts/check.py my_prices.csv 1
 
 ## Mobile proxy price comparison (English summary)
 
-Price comparison of **83 mobile proxy providers** (4G / LTE / 5G): **4,246 pricing rows** by country and carrier, collected from the providers' own websites on 12–13 November 2026. Every price was verified by a script that downloads the source page and looks for the number on it.
+Price comparison of **80 mobile proxy providers** (4G / LTE / 5G): **4 226 pricing rows** by country and carrier, collected from the providers' own websites on 12–13 November 2026. Every price was verified by a script that downloads the source page and looks for the number on it.
 
 - Dedicated mobile proxies per month: from **$16** (Germany, UK, USA).
 - Shared mobile proxies per month: from about **$5.5** (Russia).

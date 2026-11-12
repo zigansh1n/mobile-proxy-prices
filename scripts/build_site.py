@@ -78,7 +78,7 @@ for head, items in receipt:
     for j, (name, v) in enumerate(items):
         mark = ' class="hit"' if head.startswith("ОБЩИЕ") and j == 0 else ""
         lines.append(f'<p class="rl" style="--i:{k}"><span>{E(name)}</span><i></i><b{mark}>{money(v)} ₽</b></p>'); k += 1
-lines.append(f'<p class="rf" style="--i:{k}">ИТОГО: 83 продавца<br>4 246 тарифов<br>13.11.2026</p>')
+lines.append(f'<p class="rf" style="--i:{k}">ИТОГО: 80 продавца<br>4 226 тарифов<br>13.11.2026</p>')
 
 FAQ = [
     ("Сколько стоят мобильные прокси в России?",
@@ -92,8 +92,8 @@ FAQ = [
     ("Откуда взяты цены и можно ли им верить?",
      "Только с сайтов продавцов. Каждую цену проверил скрипт: он скачивает страницу продавца и ищет на ней это число. Это срез на 13 ноября 2026 года — перед покупкой сверяйтесь с сайтом."),
 ]
-ld = [{"@context": "https://schema.org", "@type": "Dataset", "name": "Цены на мобильные прокси: 83 продавца, ноябрь 2026",
-       "description": "Сравнение цен 83 продавцов мобильных прокси 4G/LTE/5G: 4 246 тарифов по странам и операторам, пересчёт в рубли.",
+ld = [{"@context": "https://schema.org", "@type": "Dataset", "name": "Цены на мобильные прокси: 80 продавца, ноябрь 2026",
+       "description": "Сравнение цен 80 продавцов мобильных прокси 4G/LTE/5G: 4 226 тарифов по странам и операторам, пересчёт в рубли.",
        "url": URL, "inLanguage": "ru", "license": "https://creativecommons.org/licenses/by/4.0/", "dateModified": "2026-11-13",
        "keywords": ["мобильные прокси", "цены на мобильные прокси", "mobile proxy prices", "4G proxy", "LTE proxy"],
        "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv",
