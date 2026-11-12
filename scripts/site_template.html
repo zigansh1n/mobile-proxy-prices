@@ -1,15 +1,18 @@
 <!doctype html>
-<html lang="ru">
+<html lang="[[lang]]">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Мобильные прокси: сравнение цен 80 продавцов (4G / LTE / 5G), ноябрь 2026</title>
-<meta name="description" content="Сколько стоят мобильные прокси: цены 80 продавцов, 4 226 тарифов по странам и операторам, пересчёт в рубли, топы самых дешёвых. Общие от {{F_SHARED}} ₽, приватные от {{F_PRIVATE}} ₽ в месяц.">
-<link rel="canonical" href="{{URL}}">
+<title>[[title]]</title>
+<meta name="description" content="[[desc]]">
+<link rel="canonical" href="[[canonical]]">
+<link rel="alternate" hreflang="en" href="{{URL}}">
+<link rel="alternate" hreflang="ru" href="{{URL}}ru/">
+<link rel="alternate" hreflang="x-default" href="{{URL}}">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Сравнение цен 80 продавцов мобильных прокси">
-<meta property="og:description" content="4 226 тарифов по странам и операторам. Цены с сайтов продавцов, в рублях. Ноябрь 2026.">
-<meta property="og:url" content="{{URL}}">
+<meta property="og:title" content="[[h1]]">
+<meta property="og:description" content="[[sub]]">
+<meta property="og:url" content="[[canonical]]">
 <meta property="og:image" content="{{URL}}assets/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +44,7 @@ h1{font-size:clamp(36px,4.2vw,60px);line-height:1.04;letter-spacing:-.025em;font
 .stage{position:absolute;z-index:3;top:0;bottom:0;right:max(4vw,calc(50vw - 590px));width:clamp(330px,31vw,430px);pointer-events:none}
 .sim{position:absolute;left:-27%;bottom:9%;width:46%;height:auto;filter:drop-shadow(8px 14px 14px rgba(0,0,0,.28));will-change:transform}
 .receipt{position:absolute;inset:-6% 0 -10% 0;transform:rotate(2.6deg);transform-origin:50% 0;filter:drop-shadow(14px 22px 22px rgba(0,0,0,.3));will-change:transform}
-.receipt .paper{position:absolute;inset:0;background:url(assets/receipt.webp) center/100% 100%;animation:feed 1.5s cubic-bezier(.2,.7,.2,1) both}
+.receipt .paper{position:absolute;inset:0;background:url([[base]]assets/receipt.webp) center/100% 100%;animation:feed 1.5s cubic-bezier(.2,.7,.2,1) both}
 .receipt .txt{position:absolute;inset:15% 11% 0 12%;font:500 clamp(14px,1.18vw,17px)/1.25 var(--mono);color:#26272a;letter-spacing:.01em}
 .txt p{margin:0;opacity:.9;animation:print .28s steps(3) both;animation-delay:calc(1.1s + var(--i)*.11s)}
 .rh{font-weight:700;margin-top:1.5em!important;margin-bottom:.55em!important;letter-spacing:.06em}
@@ -108,22 +111,22 @@ footer{border-top:1px solid var(--line);padding:34px 0 50px;color:var(--mute);fo
 </head>
 <body>
 <header class="hero">
-  <img class="bg" data-depth="8" src="assets/bg.webp" alt="" fetchpriority="high" width="1672" height="941">
+  <img class="bg" data-depth="8" src="[[base]]assets/bg.webp" alt="" fetchpriority="high" width="1672" height="941">
   <div class="wrap">
-    <nav><b>Мобильные прокси<span class="gh"> · цены</span></b><div><a href="#tops">Топы</a><a href="#all">Все цены</a><a href="#faq">Вопросы</a><a class="gh" href="{{REPO}}">GitHub</a></div></nav>
+    <nav><b>[[brand]]<span class="gh"> · [[brand2]]</span></b><div><a href="#tops">[[n_tops]]</a><a href="#all">[[n_all]]</a><a href="#faq">[[n_faq]]</a><a href="[[switch_url]]" hreflang="[[switch_lang]]">[[switch]]</a><a class="gh" href="{{REPO}}">GitHub</a></div></nav>
     <div class="copy">
-      <h1>Сравнение цен 80 продавцов мобильных прокси</h1>
-      <p class="sub">4 226 тарифов по странам и операторам. Цены с сайтов продавцов, в рублях. Ноябрь 2026</p>
-      <a class="btn" href="#tops">Смотреть самые дешёвые</a>
+      <h1>[[h1]]</h1>
+      <p class="sub">[[sub]]</p>
+      <a class="btn" href="#tops">[[btn]]</a>
       <div class="figs">
-        <div><b>от {{F_SHARED}} ₽</b>общий, месяц</div>
-        <div><b>от {{F_PRIVATE}} ₽</b>приватный, месяц</div>
-        <div><b>от {{F_DAY}} ₽</b>в день</div>
+        <div><b>{{F_SHARED}}</b>[[f1]]</div>
+        <div><b>{{F_PRIVATE}}</b>[[f2]]</div>
+        <div><b>{{F_DAY}}</b>[[f3]]</div>
       </div>
     </div>
   </div>
   <div class="stage">
-    <img class="sim" data-depth="16" src="assets/sim.webp" alt="" width="520" height="456">
+    <img class="sim" data-depth="16" src="[[base]]assets/sim.webp" alt="" width="520" height="456">
     <div class="receipt" data-depth="26"><div class="paper"></div><div class="txt">
 {{RECEIPT}}
     </div></div>
@@ -132,43 +135,43 @@ footer{border-top:1px solid var(--line);padding:34px 0 50px;color:var(--mute);fo
 
 <main>
 <section class="block" id="tops"><div class="wrap">
-  <h2>Самые дешёвые мобильные прокси</h2>
-  <p class="lead">Цены пересчитаны в рубли по курсу ЦБ на 13.11.2026: 1 USD = 82,98 ₽. В каждом списке — одна лучшая строка на продавца и страну. Пометка «от» значит, что точная цена по стране может быть выше.</p>
+  <h2>[[tops_h]]</h2>
+  <p class="lead">[[tops_lead]]</p>
   <div class="tabs">{{TABS}}</div>
 {{TOPS}}
 </div></section>
 
 <section class="block finder" id="all"><div class="wrap">
-  <h2>Все 4 226 тарифов</h2>
-  <p class="lead">Введите страну или продавца — покажем самые дешёвые подходящие тарифы.</p>
+  <h2>[[all_h]]</h2>
+  <p class="lead">[[all_lead]]</p>
   <div class="controls">
-    <input id="q" type="search" placeholder="Страна или продавец: Россия, USA, LTE Space…" aria-label="Страна или продавец">
-    <select id="unit" aria-label="Единица цены"><option value="rub_per_30d">за 30 дней</option><option value="rub_per_day">за день</option><option value="rub_per_gb">за гигабайт</option></select>
-    <select id="kind" aria-label="Тип доступа"><option value="">любой тип</option><option value="приватный">приватный</option><option value="общий">общий</option></select>
+    <input id="q" type="search" placeholder="[[ph]]" aria-label="[[ph_a]]">
+    <select id="unit" aria-label="[[unit_a]]"><option value="[[u30]]">[[o30]]</option><option value="[[uday]]">[[oday]]</option><option value="[[ugb]]">[[ogb]]</option></select>
+    <select id="kind" aria-label="[[kind_a]]"><option value="">[[k_any]]</option><option value="приватный">[[k_priv]]</option><option value="общий">[[k_sh]]</option></select>
   </div>
   <div class="ledger" id="res"></div>
-  <p id="status">Таблица загрузится при первом запросе (2,5 МБ). Без скриптов — <a href="{{REPO}}/blob/main/data/prices.csv">файл на GitHub</a>.</p>
+  <p id="status">[[status0]] <a href="{{REPO}}/blob/main/data/prices.csv">[[status0_link]]</a>.</p>
 </div></section>
 
 <section class="block" id="faq"><div class="wrap cols">
-  <div><h2>Частые вопросы</h2>
+  <div><h2>[[faq_h]]</h2>
 {{FAQ}}
   </div>
-  <div><h2>Как собирали</h2>
+  <div><h2>[[how_h]]</h2>
     <ol class="steps">
-      <li><b>Нашли продавцов</b>По пяти источникам: русскоязычный и англоязычный веб, Telegram, Twitter и YouTube.</li>
-      <li><b>Взяли цены с их сайтов</b>Со страницы тарифов или из данных калькулятора. Цены из обзоров не берутся.</li>
-      <li><b>Проверили скриптом</b>Он скачивает страницу продавца и ищет на ней число. Нет числа — строка бракуется.</li>
-      <li><b>Сверили полноту</b>По каждому продавцу: все ли страны, сроки и типы тарифов собраны.</li>
+      <li><b>[[s1]]</b>[[s1t]]</li>
+      <li><b>[[s2]]</b>[[s2t]]</li>
+      <li><b>[[s3]]</b>[[s3t]]</li>
+      <li><b>[[s4]]</b>[[s4t]]</li>
     </ol>
-    <p class="limits">У 26 продавцов часть цен закрыта личным кабинетом или защитой от роботов — причины в <a href="{{REPO}}/blob/main/data/completeness_report.csv">отчёте о полноте</a>. Сравнивается только цена, а не качество адресов. Это не реклама.</p>
+    <p class="limits">[[lim1]] <a href="{{REPO}}/blob/main/data/completeness_report.csv">[[lim_link]]</a>. [[lim2]]</p>
   </div>
 </div></section>
 </main>
 
 <div class="wrap"><footer>
-  <span>Срез на 13 ноября 2026. Перед покупкой сверяйте цену на сайте продавца.</span>
-  <span><a href="{{REPO}}">Данные и скрипты на GitHub</a> · <a href="{{REPO}}/raw/main/mobile_proxies.xlsx">Скачать Excel</a> · CC BY 4.0</span>
+  <span>[[foot1]]</span>
+  <span><a href="{{REPO}}">[[foot2]]</a> · <a href="{{REPO}}/raw/main/mobile_proxies.xlsx">[[foot3]]</a> · CC BY 4.0</span>
 </footer></div>
 
 <script>
@@ -188,24 +191,25 @@ if(!matchMedia('(prefers-reduced-motion:reduce)').matches&&matchMedia('(hover:ho
     requestAnimationFrame(tick);})();
 }
 // поиск по всем тарифам
+const CFG=[[cfg]];CFG.fmt=v=>CFG.cur==='$'?'$'+(v<100?v.toFixed(2):Math.round(v).toLocaleString('en-US')):Math.round(v).toLocaleString('ru-RU');CFG.c=s=>CFG.cm[s]||s;
 let rows=null,loading=null;const q=document.getElementById('q'),unit=document.getElementById('unit'),kind=document.getElementById('kind'),res=document.getElementById('res'),st=document.getElementById('status');
 function parse(t){const out=[];let row=[],f='',inq=false;for(let i=0;i<t.length;i++){const c=t[i];
   if(inq){if(c==='"'){if(t[i+1]==='"'){f+='"';i++;}else inq=false;}else f+=c;}
   else if(c==='"')inq=true;else if(c===','){row.push(f);f='';}else if(c==='\n'){row.push(f);out.push(row);row=[];f='';}else if(c!=='\r')f+=c;}
   if(f||row.length){row.push(f);out.push(row);}const h=out.shift();return out.map(r=>Object.fromEntries(h.map((k,i)=>[k,r[i]??''])));}
 const SYN=[['росси','russia'],['сша','united states'],['сша','usa'],['америк','united states'],['великобритан','united kingdom'],['англи','united kingdom'],['германи','germany'],['украин','ukraine'],['казахстан','kazakhstan'],['беларус','belarus'],['франци','france'],['польш','poland'],['инди','india'],['турци','turkey'],['испани','spain'],['итали','italy']];
-function load(){return loading||(loading=fetch('data/prices.csv').then(r=>r.text()).then(t=>{rows=parse(t);}));}
+function load(){return loading||(loading=fetch('[[base]]data/prices.csv').then(r=>r.text()).then(t=>{rows=parse(t);}));}
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-function run(){const s=q.value.trim().toLowerCase();if(s.length<2){res.innerHTML='';st.textContent='Введите страну или продавца.';return;}
-  st.textContent='Загружаю таблицу…';load().then(()=>{const u=unit.value,keys=[s];for(const[a,b]of SYN){if(s.startsWith(a.slice(0,4))||a.startsWith(s))keys.push(b);if(b.startsWith(s))keys.push(a);}
+function run(){const s=q.value.trim().toLowerCase();if(s.length<2){res.innerHTML='';st.textContent=CFG.t.enter;return;}
+  st.textContent=CFG.t.loading;load().then(()=>{const u=unit.value,keys=[s];for(const[a,b]of SYN){if(s.startsWith(a.slice(0,4))||a.startsWith(s))keys.push(b);if(b.startsWith(s))keys.push(a);}
   const best=new Map();for(const r of rows){const v=parseFloat(r[u]);if(!(v>0))continue;if(kind.value&&r.kind!==kind.value)continue;
-    const p=r.period.toLowerCase();if(u==='rub_per_30d'&&!/^(1 )?(month|месяц)|(^|\D)(28|29|30|31)(\D|$)|monthly/.test(p))continue;if(u==='rub_per_day'&&!/(^|\D)1 ?(day|дн|ден)|24 ?(h|ч)|per day/.test(p))continue;
+    const p=r.period.toLowerCase();if(u===CFG.u30&&!/^(1 )?(month|месяц)|(^|\D)(28|29|30|31)(\D|$)|monthly/.test(p))continue;if(u===CFG.uday&&!/(^|\D)1 ?(day|дн|ден)|24 ?(h|ч)|per day/.test(p))continue;
     const hay=(r.country+' '+r.provider+' '+r.domain).toLowerCase();
     if(!keys.some(k=>hay.includes(k)))continue;
     const id=r.domain+'|'+r.country+'|'+r.kind;if(!best.has(id)||v<best.get(id).v)best.set(id,{v,r});}
   const list=[...best.values()].sort((a,b)=>a.v-b.v).slice(0,25);
-  res.innerHTML=list.length?'<div class="row head"><span>№</span><span>Продавец</span><span>Страна</span><span>Тариф</span><span class="r">₽</span><span>На сайте</span></div>'+list.map((x,i)=>`<div class="row"><span class="n">${String(i+1).padStart(2,'0')}</span><span class="p"><a href="${esc(x.r.url)}" rel="nofollow noopener" target="_blank">${esc(x.r.provider)}</a></span><span class="c">${esc(x.r.country)} · ${esc(x.r.kind)}</span><span class="t">${esc(x.r.tariff.slice(0,44))}</span><span class="r"><b>${Math.round(x.v).toLocaleString('ru-RU')}</b>${x.r.price_kind==='от'?' <i class="from">от</i>':''}</span><span class="s">${esc(x.r.price)} ${esc(x.r.currency)} · ${esc(x.r.period.slice(0,18))}</span></div>`).join(''):'';
-  st.textContent=list.length?`Показано ${list.length} из ${best.size} вариантов, по возрастанию цены.`:'Ничего не нашлось. Попробуйте название страны по-английски или другую единицу.';}).catch(()=>{st.textContent='Не удалось загрузить таблицу.';});}
+  res.innerHTML=list.length?CFG.t.head+list.map((x,i)=>`<div class="row"><span class="n">${String(i+1).padStart(2,'0')}</span><span class="p"><a href="${esc(x.r.url)}" rel="nofollow noopener" target="_blank">${esc(x.r.provider)}</a></span><span class="c">${esc(CFG.c(x.r.country))} · ${esc(CFG.k[x.r.kind]||x.r.kind)}</span><span class="t">${esc(x.r.tariff.slice(0,44))}</span><span class="r"><b>${CFG.fmt(x.v)}</b>${x.r.price_kind==='от'?' <i class="from">'+CFG.t.from+'</i>':''}</span><span class="s">${esc(x.r.price)} ${esc(x.r.currency)} · ${esc(x.r.period.slice(0,18))}</span></div>`).join(''):'';
+  st.textContent=list.length?CFG.t.shown.replace('{a}',list.length).replace('{b}',best.size):CFG.t.none;}).catch(()=>{st.textContent=CFG.t.fail;});}
 let tm;q.addEventListener('input',()=>{clearTimeout(tm);tm=setTimeout(run,350);});unit.onchange=kind.onchange=run;
 </script>
 </body>
