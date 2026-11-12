@@ -78,7 +78,7 @@ for head, items in receipt:
     for j, (name, v) in enumerate(items):
         mark = ' class="hit"' if head.startswith("ОБЩИЕ") and j == 0 else ""
         lines.append(f'<p class="rl" style="--i:{k}"><span>{E(name)}</span><i></i><b{mark}>{money(v)} ₽</b></p>'); k += 1
-lines.append(f'<p class="rf" style="--i:{k}">ИТОГО: 80 продавца<br>4 226 тарифов<br>13.11.2026</p>')
+lines.append(f'<p class="rf" style="--i:{k}">ИТОГО: 80 продавцов<br>4 226 тарифов<br>13.11.2026</p>')
 
 FAQ = [
     ("Сколько стоят мобильные прокси в России?",
