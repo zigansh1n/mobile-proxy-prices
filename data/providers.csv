@@ -1,0 +1,84 @@
+domain,provider,источники,стран с ценой,стран всего,строк,тип цены
+aceproxies.com,Aceproxies,добор,2,2,9,точная
+airproxy.io,AirProxy,web_en,1,1,2,точная
+airsocks.in,Airsocks,добор,9,9,34,точная
+anyip.io,anyIP,добор,1,195,4,точная
+astroproxy.com,Astro Proxy,добор,1,100,6,от/точная
+caproxy.com,Caproxy (Proxidize),добор,1,1,3,точная
+carrierproxy.com,Carrierproxy,добор,9,9,9,точная
+coronium.io,Coronium.io,добор,23,23,146,точная
+cyberyozh.com,CyberYozh,добор,17,21,537,точная
+dansvpn.com,DansVPN,twitter,1,1,4,точная
+dataimpulse.com,DataImpulse,добор,1,195,4,от/точная
+decodo.com,Decodo,добор,1,160,8,точная
+dslroot.com,DSLRoot,telegram,1,1,4,точная
+evomi.com,Evomi,добор,1,195,9,точная
+floppydata.com,Floppydata,добор,1,195,1,точная
+geonix.com,Geonix,добор,17,17,309,точная
+getproxy.io,GetProxy,добор,45,44,215,точная
+gigabit.ltd,Gigabit.ltd,telegram,1,1,2,точная
+gproxy.net,GProxy,добор,30,29,150,точная
+gridpanel.net,GridPanel,добор,4,4,25,от/точная
+helodata.com,Helodata,добор,1,180,6,от
+hydraproxy.com,HydraProxy,добор,2,50,12,точная
+hypeproxy.io,HypeProxy,добор,1,1,3,точная
+infatica.io,Infatica,добор,1,195,11,точная
+iparchitect.ru,IPArchitect,добор,1,1,5,от
+ipfoxy.com,IPFoxy,добор,1,200,7,от
+iproxy.online,iProxy Online,добор,2,31,10,от
+iproyal.com,IPRoyal,добор,1,6,8,от
+ipvolt.com,ipvolt,добор,12,11,39,точная
+jesusproxy.com,JesusProxy,twitter,1,1,6,точная
+kookeey.net,kookeey,добор,1,190,5,точная
+kupiproxy.ru,KupiProxy,добор,10,10,31,точная
+litport.net,Litport,добор,4,4,15,от/точная
+liveproxies.io,Live Proxies,добор,4,3,9,точная
+lteasy.shop,LTEasy,добор,110,109,126,точная
+lteboost.com,LTEBoost.com,"telegram, добор",16,17,57,от/точная
+ltesocks.io,LTESocks,добор,16,16,180,точная
+ltespace.com,LTE Space,"telegram, web_ru, добор",5,5,73,от/точная
+mangoproxy.com,MangoProxy,добор,2,9,8,от
+mobilehop.com,MobileHop,добор,1,1,10,точная
+mobileproxies.org,mobileproxies.org,добор,4,4,7,точная
+mobileproxy.space,MobileProxy.space,"telegram, twitter, web_ru, youtube, добор",62,52,312,точная
+multiaccount.ru,multiaccount.ru,добор,1,1,5,точная
+nodemaven.com,NodeMaven,"telegram, web_en, youtube, добор",11,190,29,от/точная
+oxylabs.io,Oxylabs,добор,1,140,8,от/точная
+proxeta.io,Proxeta,добор,1,190,4,точная
+proxidize.com,Proxidize,добор,1,195,2,от/точная
+proxied.com,Proxied,"youtube, добор",16,16,64,от
+proxies.sx,Proxies.sx,"web_en, добор",23,50,101,точная
+proxy-cheap.com,Proxy-Cheap,добор,2,100,8,от
+proxy-dealer.com,Proxy Dealer,добор,1,50,1,точная
+proxy-seller.com,Proxy-Seller,"youtube, добор",1,20,2,от
+proxy-shop.ru,Proxy-Shop,web_ru,1,1,3,точная
+proxy-store.com,Proxy-Store,добор,1,195,7,точная
+proxy.mustage.io,Mustage proxy,youtube,1,1,5,точная
+proxy.promo,Proxy.Promo,telegram,1,1,3,точная
+proxy4u.com,Proxy4U,youtube,1,не указано,3,точная
+proxya.co,proxya.co,добор,2,2,6,от
+proxyapp.ru,ProxyApp,web_ru,1,1,3,точная
+proxyempire.io,ProxyEmpire,добор,3,174,12,точная
+proxyfarm.ru,proxyfarm.ru,добор,2,2,9,от/точная
+proxyfly.ru,ProxyFly,web_ru,1,1,1,точная
+proxygram.ru,ProxyGRAM,web_ru,1,1,3,точная
+proxyguys.com,ProxyGuys,web_en,1,1,2,точная
+proxyhit.ru,ProxyHit,"web_ru, добор",23,22,143,точная
+proxyrack.com,Proxyrack,добор,1,70,4,от
+proxyseller.ru,proxyseller.ru,добор,1,1,5,от
+proxyshard.com,ProxyShard (ShardX),"telegram, youtube, добор",7,14,13,от/точная
+proxystream.net,Proxystream,youtube,3,3,18,от/точная
+proxywing.com,proxywing.com,добор,15,15,176,точная
+proxyzeus.com,proxyzeus.com,добор,3,3,11,от
+rayobyte.com,Rayobyte,web_en,1,1,3,точная
+relayox.com,Relayox,добор,1,190,8,точная
+resiprox.com,ResiProx,добор,1,180,9,точная
+roundproxies.com,Roundproxies,добор,1,50,5,от
+simplynode.io,SimplyNode,добор,1,185,7,от
+singaporemobileproxy.com,Singapore Mobile Proxy,youtube,1,1,3,точная
+snowpad.io,snowpad.io,добор,1,1,4,точная
+soax.com,SOAX,добор,206,206,1030,от/точная
+thordata.com,Thordata,добор,1,140,5,точная
+ua-proxy.net,UA-PROXY.net,twitter,1,1,4,точная
+voidmob.com,VoidMob,добор,24,190,84,от/точная
+yaproxy.ru,YaProxy,web_ru,1,1,12,точная
