@@ -1,0 +1,10 @@
+title: "Мобильные прокси: сравнение цен 83 продавцов (4G/LTE/5G)"
+description: "Сколько стоят мобильные прокси: цены 83 продавцов, 4 246 тарифов по странам и операторам, пересчёт в рубли, топы самых дешёвых. Ноябрь 2026."
+lang: ru
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+url: "https://zigansh1n.github.io"
+baseurl: "/mobile-proxy-prices"
+show_downloads: false
